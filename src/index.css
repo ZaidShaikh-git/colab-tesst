@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #434343, #000000);
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 50px auto;
+}
+.task-form, .task-item, .task-list {
+  margin-top: 20px;
+}
+.button-add, .button-delete, .button-status {
+  background-color: gold;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
